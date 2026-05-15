@@ -22,7 +22,7 @@ Known Issues:
 There is an issue with the content sometimes getting trapped behind the footer. I added extra page breaks to the content pane in order to have some scrollable content.
 
 -->
-	
+	/* title and cover page */
    <head> 
       <title>Texas Colleges</title>  
       <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -40,6 +40,7 @@ There is an issue with the content sometimes getting trapped behind the footer. 
 
 
 <style>	
+/* Main body text page. */
 .body  {
 	margin: 0;
 	font-family: Arial, sans-serif;
@@ -60,14 +61,14 @@ There is an issue with the content sometimes getting trapped behind the footer. 
 	left: 0vw;
 	z-index: 1;
 }
-
+/* Tan theme layout aesthetic. */
 #header {
 	text-align: center;
 	padding: 40px;
 	background-color: #D8C3A5;
 	color: #4E342E;
 }
-
+/* Bold font text on the header. */
 #header h1 {
 	font-size: 55px;
 	font-weight: bold;
@@ -77,7 +78,7 @@ There is an issue with the content sometimes getting trapped behind the footer. 
 	text-align: center;
 	padding: 40px;
 }
-
+/* Start area. */
 .start-card {
 	background-color: white;
 	padding: 30px;
@@ -86,13 +87,13 @@ There is an issue with the content sometimes getting trapped behind the footer. 
 	margin: auto;
 	box-shadow: 0px 4px 12px rgba(0,0,0,0.2);
 }
-
+/* This is where the start button is. */
 .start-button {
 	font-size: 28px;
 	padding: 18px 45px;
 }
 </style>
-
+/* This is where the title is. */
 <body>
 <div id="header" class="w3-container">
 	<h1>Find the best Texas College For YOU!</h1>
@@ -100,7 +101,7 @@ There is an issue with the content sometimes getting trapped behind the footer. 
 	
 <div id="content" class="w3-container">
 	<br><br>
-
+/* This is where the get started is. */ 
 	<a href="#one" class="w3-btn w3-grey w3-round">
 		Get Started
 	</a>
@@ -117,7 +118,7 @@ There is an issue with the content sometimes getting trapped behind the footer. 
 	<p><i>The following code has been developed by a student at St. Dominic Savio. This code is shared for demonstration purposes and should not be considered a product -- it is for entertainment purposes only. Any user of this code 			does so at their own risk. Members of the DIY Stream, FRI, and The University of Texas system are not liable for anything related to this code.</i></p>
  	<br><br><br><br>
 </div>
-	
+	/* This is where question one is. */ 
 <div class="page" id="one">
 <div id="header" class="w3-container">
 	<h1>Question 1: Is affordability your top priority?</h1>
@@ -131,7 +132,7 @@ There is an issue with the content sometimes getting trapped behind the footer. 
 		<br><br>
     	</div>
 </div>
-
+/* This is where question 2 is. */ 
 <div class="page" id="large-school">
 	<div id="header" class="w3-container">
 		<h1>Question 2: Do you want a larger university experience?</h1>
@@ -145,7 +146,7 @@ There is an issue with the content sometimes getting trapped behind the footer. 
 	<br><br>
 	</div>
 </div>	
-
+/* This is where question 3 is. */ 
 <div class="page" id="larger-vibe">
 	<div id="header" class="w3-container">
 		<h1>Question 3: What matters most to you?</h1>
@@ -161,7 +162,7 @@ There is an issue with the content sometimes getting trapped behind the footer. 
 	<br><br>
 	</div>
 </div>	
-
+/* This is where question 4 is. */ 
 <div class="page" id="tradition">
 	<div id="header" class="w3-container">
 		<h1>Question 4: Which vibe fits you best?</h1>
@@ -171,7 +172,7 @@ There is an issue with the content sometimes getting trapped behind the footer. 
 		<p><a href="#ut" class="w3-btn w3-grey w3-round">Longhorn pride, Austin life, and big city energy</a></p>
 	</div>
 </div>
-
+/* This is where question 5 is. */ 
 <div class="page" id="smaller-school">
 	<div id="header" class="w3-container">
 		<h1>Question 5: What type of environment fits you best?</h1>
@@ -187,7 +188,7 @@ There is an issue with the content sometimes getting trapped behind the footer. 
 	<br><br>
 	</div>
 </div>
-
+/* This is where question 6 is. */ 
 <div class="page" id="balanced">
 	<div id="header" class="w3-container">
 		<h1>Question 6: Do you want a smaller, tight-knit campus with strong academics and school spirit?</h1>
@@ -201,7 +202,7 @@ There is an issue with the content sometimes getting trapped behind the footer. 
 	<br><br>
 	</div>
 </div>
-
+/* This is where the final results page is. */ 
 <div class="page" id="acc" style="background-color:#005EB8; color:white; min-height:100vh;">
 <div id="content" class="w3-container">
 		<h1>Your Best Match Is:</h1>
@@ -211,7 +212,7 @@ There is an issue with the content sometimes getting trapped behind the footer. 
 		<a href="#" class="w3-btn w3-white w3-round">Start Over</a>
 	</div>
 </div>
-
+/* This is where the TAM results is. */ 
 	<div class="page" id="tam" style="background-color:#500000; color:white; min-height:100vh;">
 		<div id="content" class="w3-container">
     <h1>Your best match is:</h1>
@@ -221,7 +222,7 @@ There is an issue with the content sometimes getting trapped behind the footer. 
 		<a href="#" class="w3-btn w3-white w3-round">Start Over</a>
 	</div>
 </div>
-
+/* This is where UT is. */ 
 <div class="page" id="ut" style="background-color:#BF5700; color:white; min-height:100vh;">
 	<div id="content" class="w3-container">
 		<h1>Your best match is:</h1>
@@ -231,7 +232,7 @@ There is an issue with the content sometimes getting trapped behind the footer. 
 		<a href="#" class="w3-btn w3-white w3-round">Start Over</a>
 	</div>
 </div>
-
+/* This is where Tech is. */ 
 	<div class="page" id="texas-tech" style="background-color:#CC0000; color:white; min-height:100vh;">
 	<div id="content" class="w3-container">
 		<h1>Your best match is:</h1>
@@ -241,7 +242,7 @@ There is an issue with the content sometimes getting trapped behind the footer. 
 		<a href="#" class="w3-btn w3-white w3-round">Start Over</a>
 	</div>
 </div>
-
+/* This is where rice is. */ 
 <div class="page" id="rice" style="background-color:#00205B; color:white; min-height:100vh;">
 	<div id="content" class="w3-container">
 		<h1>Your best match is:</h1>
@@ -251,7 +252,7 @@ There is an issue with the content sometimes getting trapped behind the footer. 
 		<a href="#" class="w3-btn w3-white w3-round">Start Over</a>
 	</div>
 </div>
-
+/* This is where baylor is. */ 
 <div class="page" id="baylor" style="background-color:#154734; color:white; min-height:100vh;">
 <div id="content" class="w3-container">
 		<h1>Your best match is:</h1>
@@ -261,7 +262,7 @@ There is an issue with the content sometimes getting trapped behind the footer. 
 		<a href="#" class="w3-btn w3-white w3-round">Start Over</a>
 	</div>
 </div>
-
+/* This is where tcu is. */ 
 <div class="page" id="tcu" style="background-color:#4D1979; color:white; min-height:100vh;">
 	<div id="content" class="w3-container">
 		<h1>Your best match is:</h1>
@@ -271,7 +272,7 @@ There is an issue with the content sometimes getting trapped behind the footer. 
 		<a href="#" class="w3-btn w3-white w3-round">Start Over</a>
 	</div>
 </div>
-
+/* This is where SMU is. */ 
 <div class="page" id="smu" style="background-color:#0033A0; color:white; min-height:100vh;">
 	<div id="content" class="w3-container">
 		<h1>Your best match is:</h1>
